@@ -182,4 +182,37 @@ Header Css
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+
+/*=====================================================
+Brands Css
+====================================================*/
+.brands {
+  padding: 100px 0;
+}
+
+.brands .logo {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-bottom: 75px;
+}
+
+/*=====================================================
+Awsome Apps Features Css
+====================================================*/
+.app-feature {
+  padding: 50px 0;
+}
+
+.app-feature .fast-perfomance {
+  color: #f55767;
+}
+
+.app-feature .prototype {
+  color: #2500f9;
+}
+
+.app-feature .vector-edit {
+  color: #40975f;
+}
 /*# sourceMappingURL=style.css.map */
