@@ -42,6 +42,7 @@ h3 {
 
 p {
   font-family: "Poppins", sans-serif;
+  line-height: 30px;
   font-weight: 400;
   font-size: 16px;
   color: #616368;
@@ -84,7 +85,7 @@ nav .button-primary a {
   color: white;
 }
 
-.hero .content .cta .button-primary-round {
+.hero .content .cta .button-primary-round, .design-built .button-primary-round {
   background-color: #2500f9;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
@@ -94,19 +95,19 @@ nav .button-primary a {
   border-radius: 50px;
 }
 
-.hero .content .cta .button-primary-round:hover {
+.hero .content .cta .button-primary-round:hover, .design-built .button-primary-round:hover {
   background-color: black;
 }
 
-.hero .content .cta .button-primary-round:hover a {
+.hero .content .cta .button-primary-round:hover a, .design-built .button-primary-round:hover a {
   color: white;
 }
 
-.hero .content .cta .button-primary-round a {
+.hero .content .cta .button-primary-round a, .design-built .button-primary-round a {
   color: white;
 }
 
-.hero .content .cta .button-primary-round {
+.hero .content .cta .button-primary-round, .design-built .button-primary-round {
   background-color: #2500f9;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
@@ -116,15 +117,15 @@ nav .button-primary a {
   border-radius: 50px;
 }
 
-.hero .content .cta .button-primary-round:hover {
+.hero .content .cta .button-primary-round:hover, .design-built .button-primary-round:hover {
   background-color: black;
 }
 
-.hero .content .cta .button-primary-round:hover a {
+.hero .content .cta .button-primary-round:hover a, .design-built .button-primary-round:hover a {
   color: white;
 }
 
-.hero .content .cta .button-primary-round a {
+.hero .content .cta .button-primary-round a, .design-built .button-primary-round a {
   color: white;
 }
 
@@ -214,5 +215,38 @@ Awsome Apps Features Css
 
 .app-feature .vector-edit {
   color: #40975f;
+}
+
+/*=====================================================
+Smart Jackpot Css
+====================================================*/
+.smart-jackpot {
+  padding: 50px 0;
+}
+
+/*=====================================================
+Badge and services Css
+====================================================*/
+.b-s {
+  padding: 50px 20px;
+}
+
+.b-s .payouts {
+  color: #f55767;
+}
+
+.b-s .network {
+  color: #2500f9;
+}
+
+.b-s .reward {
+  color: #40975f;
+}
+
+/*=====================================================
+Designed and build Css
+====================================================*/
+.design-built {
+  padding: 70px 10px;
 }
 /*# sourceMappingURL=style.css.map */

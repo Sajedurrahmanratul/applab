@@ -50,6 +50,7 @@ h3 {
 
 p {
   font-family: "Poppins", sans-serif;
+  line-height: 30px;
   font-weight: 400;
   font-size: 16px;
   color: $paragraph-color;
@@ -227,5 +228,43 @@ Awsome Apps Features Css
 
   .vector-edit {
     color: $green-color;
+  }
+}
+
+/*=====================================================
+Smart Jackpot Css
+====================================================*/
+
+.smart-jackpot {
+  padding: 50px 0;
+}
+
+/*=====================================================
+Badge and services Css
+====================================================*/
+
+.b-s {
+  padding: 50px 20px;
+  .payouts {
+    color: $pink-color;
+  }
+
+  .network {
+    color: $primary-color;
+  }
+
+  .reward {
+    color: $green-color;
+  }
+}
+
+/*=====================================================
+Designed and build Css
+====================================================*/
+
+.design-built {
+  padding: 70px 10px;
+  .button-primary-round {
+    @extend %button-primary-round;
   }
 }
