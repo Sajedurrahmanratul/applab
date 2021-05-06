@@ -13,6 +13,7 @@ Common Css
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 5000px;
 }
 
 /*=====================================================
@@ -46,7 +47,139 @@ p {
   color: #616368;
 }
 
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #242f51;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #242f51;
+  text-decoration: none;
+}
+
 /*=====================================================
-Font Css
+buttons Css
 ====================================================*/
+nav .button-primary {
+  background-color: #2500f9;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+}
+
+nav .button-primary:hover {
+  background-color: black;
+}
+
+nav .button-primary:hover a {
+  color: white;
+}
+
+nav .button-primary a {
+  color: white;
+}
+
+.hero .content .cta .button-primary-round {
+  background-color: #2500f9;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+.hero .content .cta .button-primary-round:hover {
+  background-color: black;
+}
+
+.hero .content .cta .button-primary-round:hover a {
+  color: white;
+}
+
+.hero .content .cta .button-primary-round a {
+  color: white;
+}
+
+.hero .content .cta .button-primary-round {
+  background-color: #2500f9;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  outline: none;
+  border: none;
+  padding: 20px 25px;
+  border-radius: 50px;
+}
+
+.hero .content .cta .button-primary-round:hover {
+  background-color: black;
+}
+
+.hero .content .cta .button-primary-round:hover a {
+  color: white;
+}
+
+.hero .content .cta .button-primary-round a {
+  color: white;
+}
+
+/*=====================================================
+Nav Css
+====================================================*/
+/*=====================================================
+Header Css
+====================================================*/
+.hero {
+  background: url(../img/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 70px 0;
+}
+
+.hero .content {
+  height: 80vh;
+}
+
+.hero .content .ico {
+  background-color: #feaa25;
+  padding: 6px;
+  border-radius: 50px;
+}
+
+.hero .content .award {
+  font-family: "Poppins", sans-serif;
+  background-color: #dbd8d8;
+  padding: 6px 20px 0 20px;
+  border-radius: 50px;
+}
+
+.hero .content .award h4 {
+  font-size: 15px;
+}
+
+.hero .content .cta a {
+  color: #2500f9;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.hero .content .cta a:hover {
+  color: #242f51;
+}
+
+.hero .hero-img {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
 /*# sourceMappingURL=style.css.map */
