@@ -1,0 +1,59 @@
+/*=====================================================
+Colors Variable Css
+====================================================*/
+
+$primary-color: #2500f9;
+$pink-color: #f55767;
+$green-color: #40975f;
+$paragraph-color: #616368;
+$dark-color: #242f51;
+
+/*=====================================================
+Common Css
+====================================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*=====================================================
+Font Css
+====================================================*/
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: $dark-color;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: $dark-color;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: $dark-color;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: $paragraph-color;
+}
+
+/*=====================================================
+Font Css
+====================================================*/
