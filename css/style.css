@@ -14,6 +14,7 @@ Common Css
 body {
   font-family: "Poppins", sans-serif;
   height: 5000px;
+  overflow-x: hidden;
 }
 
 /*=====================================================
@@ -248,5 +249,29 @@ Designed and build Css
 ====================================================*/
 .design-built {
   padding: 70px 10px;
+}
+
+/*=====================================================
+Why you use our app Css
+====================================================*/
+.why-use {
+  padding: 60px 0;
+}
+
+.why-use .image {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.why-use .content {
+  margin-top: 70px;
+}
+
+/*=====================================================
+Ultimate features Css
+====================================================*/
+.ultimate-feature {
+  padding: 50px 10px;
 }
 /*# sourceMappingURL=style.css.map */
