@@ -325,4 +325,31 @@ Subs  Css
   color: #2500f9;
   font-weight: 600;
 }
+
+/*=====================================================
+Client Satisfaction Css
+====================================================*/
+.client-satisfaction {
+  padding: 50px 20px;
+}
+
+.client-satisfaction .reviews {
+  color: #ffcc00;
+}
+
+.client-satisfaction .ceo h3 {
+  font-size: 20px;
+}
+
+.client-satisfaction .ceo h4 {
+  font-size: 18px;
+}
+
+/*=====================================================
+F.A.Q Css
+====================================================*/
+.faq .question {
+  background-color: #f5f7fa;
+  padding: 40px;
+}
 /*# sourceMappingURL=style.css.map */
