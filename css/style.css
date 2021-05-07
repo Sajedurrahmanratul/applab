@@ -13,7 +13,7 @@ Common Css
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 5000px;
+  height: 10000px;
   overflow-x: hidden;
 }
 
@@ -86,7 +86,7 @@ nav .button-primary a {
   color: white;
 }
 
-.hero .content .cta .button-primary-round, .design-built .button-primary-round {
+.hero .content .cta .button-primary-round, .design-built .button-primary-round, .subs .card .card-body button {
   background-color: #2500f9;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
@@ -96,19 +96,19 @@ nav .button-primary a {
   border-radius: 50px;
 }
 
-.hero .content .cta .button-primary-round:hover, .design-built .button-primary-round:hover {
+.hero .content .cta .button-primary-round:hover, .design-built .button-primary-round:hover, .subs .card .card-body button:hover {
   background-color: black;
 }
 
-.hero .content .cta .button-primary-round:hover a, .design-built .button-primary-round:hover a {
+.hero .content .cta .button-primary-round:hover a, .design-built .button-primary-round:hover a, .subs .card .card-body button:hover a {
   color: white;
 }
 
-.hero .content .cta .button-primary-round a, .design-built .button-primary-round a {
+.hero .content .cta .button-primary-round a, .design-built .button-primary-round a, .subs .card .card-body button a {
   color: white;
 }
 
-.hero .content .cta .button-primary-round, .design-built .button-primary-round {
+.hero .content .cta .button-primary-round, .design-built .button-primary-round, .subs .card .card-body button {
   background-color: #2500f9;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
@@ -118,15 +118,15 @@ nav .button-primary a {
   border-radius: 50px;
 }
 
-.hero .content .cta .button-primary-round:hover, .design-built .button-primary-round:hover {
+.hero .content .cta .button-primary-round:hover, .design-built .button-primary-round:hover, .subs .card .card-body button:hover {
   background-color: black;
 }
 
-.hero .content .cta .button-primary-round:hover a, .design-built .button-primary-round:hover a {
+.hero .content .cta .button-primary-round:hover a, .design-built .button-primary-round:hover a, .subs .card .card-body button:hover a {
   color: white;
 }
 
-.hero .content .cta .button-primary-round a, .design-built .button-primary-round a {
+.hero .content .cta .button-primary-round a, .design-built .button-primary-round a, .subs .card .card-body button a {
   color: white;
 }
 
@@ -273,5 +273,56 @@ Ultimate features Css
 ====================================================*/
 .ultimate-feature {
   padding: 50px 10px;
+}
+
+/*=====================================================
+Subs  Css
+====================================================*/
+.subs {
+  padding: 70px 20px;
+}
+
+.subs .badge {
+  margin-top: 100px;
+}
+
+.subs .card {
+  border: none;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.subs .card:hover {
+  scale: 1.1;
+  -webkit-box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.subs .card .head {
+  background-color: #f3f3f3;
+  padding: 40px 120px 40px 120px;
+}
+
+.subs .card .head .head-tag .month {
+  margin-top: 35px;
+}
+
+.subs .card .card-body button {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.subs .card .card-body p {
+  color: #2500f9;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
