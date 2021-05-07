@@ -20,7 +20,7 @@ Common Css
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 10000px;
+  height: fit-content;
   overflow-x: hidden;
 }
 
@@ -299,7 +299,7 @@ Subs  Css
 ====================================================*/
 
 .subs {
-  padding: 70px 20px;
+  padding: 70px 40px;
   .badge {
     margin-top: 100px;
   }
@@ -319,7 +319,7 @@ Subs  Css
     }
     .head {
       background-color: #f3f3f3;
-      padding: 40px 120px 40px 120px;
+      padding: 20px 120px 10px 120px;
       .head-tag {
         .month {
           margin-top: 35px;
@@ -365,8 +365,46 @@ Client Satisfaction Css
 F.A.Q Css
 ====================================================*/
 .faq {
+  padding: 90px 10px;
   .question {
     background-color: #f5f7fa;
     padding: 40px;
+    margin-top: 90px;
+  }
+}
+
+/*=====================================================
+Download Now Css
+====================================================*/
+
+.download-now {
+  padding: 30px 10px 15px 10px;
+  border-top: 1px solid rgb(235, 234, 234);
+  border-bottom: 1px solid rgb(235, 234, 234);
+}
+
+/*=====================================================
+Footer Css
+====================================================*/
+
+footer {
+  background-color: #09142e;
+  width: 100%;
+  height: fit-content;
+  padding: 70px 20px;
+
+  .logo {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .social {
+    i {
+      color: rgb(189, 189, 189);
+      transition: 0.3s ease all;
+      &:hover {
+        color: white;
+      }
+    }
   }
 }
